@@ -12,7 +12,6 @@ public class Quiz {
     protected int score;
     protected char grade;
     protected int length;
-    private List<Question> quiz;
 
     public Quiz() {
         this.score = 0;
@@ -32,7 +31,7 @@ public class Quiz {
         Scanner scanner = new Scanner(System.in);
         Gson gson = new Gson();
         Type listType = new TypeToken<List<Question>>() {}.getType();
-        quiz = gson.fromJson(jsonContent.toString(), listType);
+        List<Question> quiz = gson.fromJson(jsonContent.toString(), listType);
 
         this.length = quiz.size();
 
@@ -82,10 +81,10 @@ public class Quiz {
     }
 
     private char grade() {
-        if (score < 0 || score > quiz.size())
+        if (score < 0 || score > length)
             return 'F';
 
-        double percentage = (double) score / quiz.size() * 100;
+        double percentage = (double) score / length * 100;
 
         if (percentage >= 90)
             return 'A';

@@ -1,92 +1,254 @@
 [
-    {
-        "question": "What does CPU stand for?",
-        "answers": [
-            { "answer": "Central Processing Unit", "correct": true },
-            { "answer": "CPU", "correct": false },
-            { "answer": "Computer Personal Unit", "correct": false },
-            { "answer": "Central Peripheral Unit", "correct": false }
-        ]
-    },
-    {
-        "question": "What does RAM stand for?",
-        "answers": [
-            { "answer": "Random Access Memory", "correct": true },
-            { "answer": "Read Access Mode", "correct": false },
-            { "answer": "Run Active Memory", "correct": false },
-            { "answer": "Rapid Action Module", "correct": false }
-        ]
-    },
-    {
-        "question": "What does URL stand for?",
-        "answers": [
-            { "answer": "Uniform Resource Locator", "correct": true },
-            { "answer": "Universal Remote Link", "correct": false },
-            { "answer": "Unified Resource Link", "correct": false },
-            { "answer": "Universal Resource Locator", "correct": false }
-        ]
-    },
-    {
-        "question": "What does HTML stand for?",
-        "answers": [
-            { "answer": "HyperText Markup Language", "correct": true },
-            { "answer": "HighText Machine Language", "correct": false },
-            { "answer": "HyperTool Multi Language", "correct": false },
-            { "answer": "Hyper Transfer Markup Language", "correct": false }
-        ]
-    },
-    {
-        "question": "Which one is a programming language?",
-        "answers": [
-            { "answer": "Python", "correct": true },
-            { "answer": "HTML", "correct": false },
-            { "answer": "CSS", "correct": false },
-            { "answer": "HTTP", "correct": false }
-        ]
-    },
-    {
-        "question": "What does SSD stand for?",
-        "answers": [
-            { "answer": "Solid State Drive", "correct": true },
-            { "answer": "Secure Storage Device", "correct": false },
-            { "answer": "Super Speed Disk", "correct": false },
-            { "answer": "Software Storage Device", "correct": false }
-        ]
-    },
-    {
-        "question": "Which protocol is used to send emails?",
-        "answers": [
-            { "answer": "SMTP", "correct": true },
-            { "answer": "HTTP", "correct": false },
-            { "answer": "FTP", "correct": false },
-            { "answer": "SSH", "correct": false }
-        ]
-    },
-    {
-        "question": "What is the brain of the computer?",
-        "answers": [
-            { "answer": "CPU", "correct": true },
-            { "answer": "RAM", "correct": false },
-            { "answer": "Hard Drive", "correct": false },
-            { "answer": "Monitor", "correct": false }
-        ]
-    },
-    {
-        "question": "Which one is an operating system?",
-        "answers": [
-            { "answer": "Linux", "correct": true },
-            { "answer": "Google", "correct": false },
-            { "answer": "Chrome", "correct": false },
-            { "answer": "Microsoft", "correct": false }
-        ]
-    },
-    {
-        "question": "Which of the following is a database?",
-        "answers": [
-            { "answer": "MySQL", "correct": true },
-            { "answer": "HTML", "correct": false },
-            { "answer": "JavaScript", "correct": false },
-            { "answer": "React", "correct": false }
-        ]
-    }
+  {
+    "question": "What does RAM stand for?",
+    "answers": [
+      {
+        "answer": "Random Access Memory",
+        "correct": true
+      },
+      {
+        "answer": "Read Access Mode",
+        "correct": false
+      },
+      {
+        "answer": "Run Active Memory",
+        "correct": false
+      },
+      {
+        "answer": "Rapid Action Module",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does URL stand for?",
+    "answers": [
+      {
+        "answer": "Uniform Resource Locator",
+        "correct": true
+      },
+      {
+        "answer": "Universal Remote Link",
+        "correct": false
+      },
+      {
+        "answer": "Unified Resource Link",
+        "correct": false
+      },
+      {
+        "answer": "Universal Resource Locator",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      {
+        "answer": "HyperText Markup Language",
+        "correct": true
+      },
+      {
+        "answer": "HighText Machine Language",
+        "correct": false
+      },
+      {
+        "answer": "HyperTool Multi Language",
+        "correct": false
+      },
+      {
+        "answer": "Hyper Transfer Markup Language",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which one is a programming language?",
+    "answers": [
+      {
+        "answer": "Python",
+        "correct": true
+      },
+      {
+        "answer": "HTML",
+        "correct": false
+      },
+      {
+        "answer": "CSS",
+        "correct": false
+      },
+      {
+        "answer": "HTTP",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does SSD stand for?",
+    "answers": [
+      {
+        "answer": "Solid State Drive",
+        "correct": true
+      },
+      {
+        "answer": "Secure Storage Device",
+        "correct": false
+      },
+      {
+        "answer": "Super Speed Disk",
+        "correct": false
+      },
+      {
+        "answer": "Software Storage Device",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "answers": [
+      {
+        "answer": "SMTP",
+        "correct": true
+      },
+      {
+        "answer": "HTTP",
+        "correct": false
+      },
+      {
+        "answer": "FTP",
+        "correct": false
+      },
+      {
+        "answer": "SSH",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the brain of the computer?",
+    "answers": [
+      {
+        "answer": "CPU",
+        "correct": true
+      },
+      {
+        "answer": "RAM",
+        "correct": false
+      },
+      {
+        "answer": "Hard Drive",
+        "correct": false
+      },
+      {
+        "answer": "Monitor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which one is an operating system?",
+    "answers": [
+      {
+        "answer": "Linux",
+        "correct": true
+      },
+      {
+        "answer": "Google",
+        "correct": false
+      },
+      {
+        "answer": "Chrome",
+        "correct": false
+      },
+      {
+        "answer": "Microsoft",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a database?",
+    "answers": [
+      {
+        "answer": "MySQL",
+        "correct": true
+      },
+      {
+        "answer": "HTML",
+        "correct": false
+      },
+      {
+        "answer": "JavaScript",
+        "correct": false
+      },
+      {
+        "answer": "React",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is the best programmer?",
+    "answers": [
+      {
+        "answer": "PPaull",
+        "correct": true
+      },
+      {
+        "answer": "Koil",
+        "correct": false
+      },
+      {
+        "answer": "Ravage",
+        "correct": false
+      },
+      {
+        "answer": "Andrew",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which programming language is the best?",
+    "answers": [
+      {
+        "answer": "LUA",
+        "correct": false
+      },
+      {
+        "answer": "Java",
+        "correct": true
+      },
+      {
+        "answer": "Python",
+        "correct": true
+      },
+      {
+        "answer": "C++",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who is the best programmer in FiveM?",
+    "answers": [
+      {
+        "answer": "Koil",
+        "correct": true
+      },
+      {
+        "answer": "Ravage",
+        "correct": false
+      },
+      {
+        "answer": "Andrew",
+        "correct": false
+      },
+      {
+        "answer": "PPaull",
+        "correct": false
+      }
+    ]
+  }
 ]
